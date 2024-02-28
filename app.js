@@ -23,8 +23,10 @@ newNum = num--;
 document.write("5. Value of newNum: " + newNum + "<br>");
 
 // 6. 
-var originalValue = variable++;
+var originalValue = 10; // Example original value
+var newValue = originalValue + 1;
 document.write("6. Original value of variable: " + originalValue + "<br>");
+document.write(" new value of variable: " + newValue + "<br>");
 
 // 7. 
 var number = 10;
